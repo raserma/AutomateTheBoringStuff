@@ -1,0 +1,35 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "40c5d84cfcc022efc2abbec91da041596e299106f9c54f84dba3bf394ba470a8"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.8"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "pyperclip": {
+            "hashes": [
+                "sha256:9abef1e79ce635eb62309ecae02dfb5a3eb952fa7d6dce09c1aef063f81424d3"
+            ],
+            "index": "pypi",
+            "version": "==1.8.1"
+        },
+        "zombiedice": {
+            "hashes": [
+                "sha256:de022180e73bc458846007e108538f843f3e85577a216f391dc7283f1e8744f7"
+            ],
+            "index": "pypi",
+            "version": "==0.1.6"
+        }
+    },
+    "develop": {}
+}
