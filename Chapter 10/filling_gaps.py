@@ -90,7 +90,6 @@ def fill_gaps(path, ext):
             old_filename = os.path.join(path_name, old_name)
             new_name = match.group(1) + str(count).zfill(3) + match.group(3)
             new_filename = os.path.join(path_name, new_name)
-            if
             print(f'Renaming {old_filename} to {new_filename}')
             shutil.move(old_filename, new_filename)
             count += 1
